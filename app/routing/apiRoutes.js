@@ -10,13 +10,13 @@ module.exports = function (app) {
   app.get('/api/pokemon', function (req, res) {
     res.json(pokemon);
   });
-  // The app.post request handles when a user submits a form and thus submits data to the surver
+  // The app.post request handles when a user submits a form and thus submits data to the survey
   app.post('/api/pokemon', function (req, res) {
     // loop through all of the possible options
     var bestMatch = {
       name: "",
       photo: "",
-      friendDifference: 1000
+      pokemonDifference: 1000
     };
 
     // To take the result of the user's survey POST and parse it
@@ -39,12 +39,12 @@ module.exports = function (app) {
         // We calculate the difference between the scores and sum them into the totalDifference
         totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(pokemon[i].scores[j]));
         // If the sum of differences is less then the differences of the current "best match"
-        if (totalDifference <= bestMatch.friendDifference) {
+        if (totalDifference <= bestMatch.pokemonDifference) {
 
           // Reset the bestMatch to be the new friend.
           bestMatch.name = pokemon[i].name;
           bestMatch.photo = pokemon[i].photo;
-          bestMatch.friendDifference = totalDifference;
+          bestMatch.pokemonDifference = totalDifference;
         }
       }
     }
@@ -52,7 +52,7 @@ module.exports = function (app) {
     // The push method use to save user's data to the database
     pokemon.push(userData);
 
-    //The res.json method will return a JSON data with the user's match which was looped through frieds data array.
+    //The res.json method will return a JSON data with the user's match which was looped through pokemon data array.
     res.json(bestMatch);
   });
 };
