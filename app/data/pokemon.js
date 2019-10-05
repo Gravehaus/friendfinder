@@ -1,3 +1,5 @@
+//THIS IS THE 'FRIENDS' LIST!!!!/////
+
 // https://bulbapedia.bulbagarden.net/wiki/Category:New_Pok%C3%A9mon
 
 //keep alphabetized
