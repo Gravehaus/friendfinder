@@ -15,7 +15,7 @@ body{
 
 
 
-.jumbotron{
+.jumbotron, a{
     background-color: rgba(233, 190, 0, 0.3);
     color: goldenrod;
 
@@ -39,6 +39,7 @@ span{
 
     }
 }
+
 
 .form-control {
     display: inline;
