@@ -1,4 +1,6 @@
-
+*{
+    color: #8b0000; 
+}
 body{
     background-image: url("./img/poke-app.jpg");
     background-color: rgba(218,165,32,.3);
