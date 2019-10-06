@@ -43,9 +43,9 @@ span{
     width: 75%;
 }
 
-.img,
-#match-img{
-max-width: 20%;
+img {
+    border: 0;
+    width: 50%;
 }
 
 
