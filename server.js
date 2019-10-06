@@ -30,6 +30,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("app/public")); //added for style. if doesn't work, remove.
 
+//this tells the server that whenever you link to a static file (css/js/imgs) in your html to look for them inside of the public folder (which is inside the app folder...from where server is we need to tell is to go into app first)
+
 // ================================================================================
 // ROUTER
 // The below points our server to a series of "route" files.
