@@ -1,8 +1,19 @@
+//_____      _                                ______    _                _   ______ _           _
+//|  __ \    | |                              |  ____|  (_)              | | |  ____(_)         | |
+//| |__) |__ | | _____ _ __ ___   ___  _ __   | |__ _ __ _  ___ _ __   __| | | |__   _ _ __   __| | ___ _ __
+//|  ___/ _ \| |/ / _ \ '_ ` _ \ / _ \| '_ \  |  __| '__| |/ _ \ '_ \ / _` | |  __| | | '_ \ / _` |/ _ \ '__|
+//| |  | (_) |   <  __/ | | | | | (_) | | | | | |  | |  | |  __/ | | | (_| | | |    | | | | | (_| |  __/ |
+//|_|   \___/|_|\_\___|_| |_| |_|\___/|_| |_| |_|  |_|  |_|\___|_| |_|\__,_| |_|    |_|_| |_|\__,_|\___|_|
+//
+
+
 // The apiRoutes.js file includes two basic routes for app.get function and app.post function which used for displaying a JASON data and incoming survey results of all possible pokemon:
 // The app.post(in the apiRoutes.js) used to handle the compatibility logic.
 
 
 var pokemon = require('../data/pokemon.js');
+
+
 
 // Routing the apiRoutes with the app.get and app.post functions
 module.exports = function (app) {
