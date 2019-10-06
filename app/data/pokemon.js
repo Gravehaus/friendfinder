@@ -11,7 +11,7 @@
 
 // https://bulbapedia.bulbagarden.net/wiki/Category:New_Pok%C3%A3mon
 
-//keep alphabetized
+//keep alphabetized (personal note)
 
 const pokemon = [
   {
@@ -20,14 +20,12 @@ const pokemon = [
     scores: [2,2,4,5,2,5,2,3,2,2] //
   },
 
-  console.log("Alcremie"),
 
   {
     name: "Corviknight",
     photo:"https://cdn.bulbagarden.net/upload/thumb/2/2e/Corviknight.png/1200px-Corviknight.png", //insert image here
     scores: [3,2,4,5,2,3,3,2,1,3]
   },
-  console.log("Corviknight"),
 
   {
     name: "Cramorant",
