@@ -21,7 +21,13 @@ body{
 
 }
 
-button{
+button,
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+
     background-color: rgba(233, 190, 0, 0.3);
     outline: #ffd000;
 }
