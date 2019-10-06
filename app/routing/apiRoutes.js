@@ -55,6 +55,9 @@ module.exports = function (app) {
           // Reset the bestMatch to be the new friend.
           bestMatch.name = pokemon[i].name;
           bestMatch.photo = pokemon[i].photo;
+
+          bestMatch.info = pokemon[i].info; //**********REMOVE IF NOT WORKING!*******/////////////
+
           bestMatch.pokemonDifference = totalDifference;
         }
       }
