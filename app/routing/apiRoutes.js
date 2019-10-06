@@ -21,7 +21,7 @@ module.exports = function (app) {
   app.get('/api/pokemon', function (req, res) {
     res.json(pokemon);
   });
-  // The app.post request handles when a user submits a form and thus submits data to the survey
+  // The app.post request handles when a user submits a form and thus submits data to the survey.
   app.post('/api/pokemon', function (req, res) {
     // loop through all of the possible options
     let bestMatch = {
