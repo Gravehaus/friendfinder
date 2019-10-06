@@ -21,6 +21,10 @@ body{
 
 }
 
+audio { 
+    display:none;
+ }
+
 span, a{
     color: #8b0000;
 }
