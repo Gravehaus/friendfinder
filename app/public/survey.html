@@ -262,6 +262,8 @@
         $("#match-name").text(data.name);
         $("#match-img").attr("src", data.photo);
 
+        $("#info").text(data.info); //<-------ADD THIS?
+
         // Show the modal with the best match
         $("#results-modal").modal("toggle");
 

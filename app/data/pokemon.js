@@ -18,6 +18,7 @@ const pokemon = [
     name: "Alcremie",
     photo:"https://cdn.bulbagarden.net/upload/4/4d/Alcremie.png", //insert image here
     scores: [2,2,4,5,2,5,2,3,2,2] //hp, attack, defense, spec def, spec attack, speed, agility, evolution, kindness, happiness
+    info: "Lorem ipsum dolor amet crucifix heirloom kitsch, selvage kinfolk photo booth activated charcoal godard bitters post-ironic live-edge lumbersexual messenger bag cold-pressed synth."
   },
 
 
@@ -25,54 +26,63 @@ const pokemon = [
     name: "Corviknight",
     photo:"https://cdn.bulbagarden.net/upload/2/2e/Corviknight.png", //insert image here
     scores: [3,2,4,5,2,3,3,2,1,3] //hp, attack, defense, spec def, spec attack, speed, agility, evolution, kindness, happiness
+    info: "Lorem ipsum dolor amet crucifix heirloom kitsch, selvage kinfolk photo booth activated charcoal godard bitters post-ironic live-edge lumbersexual messenger bag cold-pressed synth."
   },
 
   {
     name: "Cramorant",
     photo:"https://cdn.bulbagarden.net/upload/3/31/Cramorant.png", //insert image here
     scores: [3,5,5,5,5,2,2,1,2,4] //hp, attack, defense, spec def, spec attack, speed, agility, evolution, kindness, happiness
+    info: "Lorem ipsum dolor amet crucifix heirloom kitsch, selvage kinfolk photo booth activated charcoal godard bitters post-ironic live-edge lumbersexual messenger bag cold-pressed synth."
   },
 
   {
     name: "Drednaw",
     photo:"https://cdn.bulbagarden.net/upload/4/4e/Drednaw.png", //insert image here
     scores: [2, 5, 4, 3, 1, 3, 2, 5, 3,1] //hp, attack, defense, spec def, spec attack, speed, agility, evolution, kindness, happiness
+    info: "Lorem ipsum dolor amet crucifix heirloom kitsch, selvage kinfolk photo booth activated charcoal godard bitters post-ironic live-edge lumbersexual messenger bag cold-pressed synth."
   },
 
   {
     name: "Duraludon",
     photo:"https://cdn.bulbagarden.net/upload/2/28/Duraludon.png", //insert image here
     scores: [2, 5, 1, 2, 3, 4, 5, 3, 3,3] //hp, attack, defense, spec def, spec attack, speed, agility, evolution, kindness, happiness
+    info: "Lorem ipsum dolor amet crucifix heirloom kitsch, selvage kinfolk photo booth activated charcoal godard bitters post-ironic live-edge lumbersexual messenger bag cold-pressed synth."
   },
 
   {
     name: "Gossifleur",
     photo:"https://cdn.bulbagarden.net/upload/8/83/Gossifleur.png", //insert image here
     scores: [2, 4, 2, 3, 3, 5, 5, 3, 1,3] //hp, attack, defense, spec def, spec attack, speed, agility, evolution, kindness, happiness
+    info: "Lorem ipsum dolor amet crucifix heirloom kitsch, selvage kinfolk photo booth activated charcoal godard bitters post-ironic live-edge lumbersexual messenger bag cold-pressed synth."
   },
 
   {
     name: "Sirfetch'd",
     photo:"https://cdn.bulbagarden.net/upload/0/0e/Sirfetch%27d.png", //insert image here
     scores: [3, 5, 2, 3, 5, 2, 4, 1, 3,5] //hp, attack, defense, spec def, spec attack, speed, agility, evolution, kindness, happiness
+    info: "Lorem ipsum dolor amet crucifix heirloom kitsch, selvage kinfolk photo booth activated charcoal godard bitters post-ironic live-edge lumbersexual messenger bag cold-pressed synth."
   },
 
   {
     name: "Sobble",
     photo:"https://cdn.bulbagarden.net/upload/9/9b/816Sobble.png", //insert image here
     scores: [2, 3, 5, 2, 5, 3, 1, 4, 3,2] //hp, attack, defense, spec def, spec attack, speed, agility, evolution, kindness, happiness
+    info: "Lorem ipsum dolor amet crucifix heirloom kitsch, selvage kinfolk photo booth activated charcoal godard bitters post-ironic live-edge lumbersexual messenger bag cold-pressed synth."
   },
 
   {
     name: "Wooloo",
     photo:"https://cdn.bulbagarden.net/upload/2/2f/Wooloo.png", //insert image here
     scores: [4, 2, 1, 2, 3, 5, 5, 3, 3,3] //hp, attack, defense, spec def, spec attack, speed, agility, evolution, kindness, happiness
+    info: "Lorem ipsum dolor amet crucifix heirloom kitsch, selvage kinfolk photo booth activated charcoal godard bitters post-ironic live-edge lumbersexual messenger bag cold-pressed synth."
   },
 
   {
     name: "Zamazenta",
     photo:"https://cdn.bulbagarden.net/upload/b/bd/Zamazenta.png", //insert image here
     scores: [3, 3, 5, 3, 5, 1, 2, 2, 4,5] //hp, attack, defense, spec def, spec attack, speed, agility, evolution, kindness, happiness
+    info: "Lorem ipsum dolor amet crucifix heirloom kitsch, selvage kinfolk photo booth activated charcoal godard bitters post-ironic live-edge lumbersexual messenger bag cold-pressed synth."
   },
 
 
