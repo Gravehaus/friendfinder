@@ -37,7 +37,7 @@ module.exports = function (app) {
     var userName = userData.name;
     var userPhoto = userData.photo;
 
-    // The variable used to calculate the difference b/n the user's socres and the scores of each user
+    // The variable used to calculate the difference b/n the user's scores and the scores of each user
     var totalDifference = 0;
 
     //loop through the pokemon data array of objects to get each pokemon scores
