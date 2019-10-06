@@ -29,6 +29,10 @@
 
 <body>
 
+        <audio id="myAudio">
+                <source src="./audio/POKEMON REDBLUE (Trap Remix).mp3" type="audio/mpeg">
+              </audio>
+
 <div class="container">
 
     <style>
@@ -53,6 +57,12 @@
 
     </div>
 
+    <p>Click the buttons to play or pause the audio.</p>
+
+<button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+
+
     <footer class="footer">
         <div class="container">
             <p><a href="/api/pokemon">API Partner List</a> | <a href="https://github.com/Gravehaus/friendfinder.git">GitHub
@@ -62,6 +72,18 @@
 
 </div>
 
+<script>
+        var x = document.getElementById("myAudio"); 
+        
+        function playAudio() { 
+          x.play(); 
+        } 
+        
+        function pauseAudio() { 
+          x.pause(); 
+        } 
+        </script>
+        
 
 </body>
 </html>
