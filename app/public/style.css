@@ -62,6 +62,9 @@ span, a{
     }
 }
 
+.active-result{
+    color: black;
+}
 
 .form-control {
     display: inline;
