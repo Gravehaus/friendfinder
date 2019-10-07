@@ -62,7 +62,8 @@ span, a{
     }
 }
 
-.active-result{
+.active-result, 
+#match{
     color: black;
 }
 
