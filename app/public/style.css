@@ -25,6 +25,10 @@ body{
     overflow: scroll;
 }
 
+.navbar-default {
+    background-color: rgba(218,165,32,-.3);
+}
+
 
 
 .jumbotron{
