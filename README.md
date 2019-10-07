@@ -1,13 +1,30 @@
-# friendfinder
-Find your friends!
+# Galar Pokemon Friend Finder!
 
-git clone https://github.com/Gravehaus/friendfinder.git
-<br>
-cd friendfinder
-<br>
-npm install
-<br>
-Unfortunately I cannot get this to work as of right now but here are the aesthetics:
+This is personality app designed to partner people with the best pokemon starter!
+
+## Installation
+
+Git clone
+```bash
+https://github.com/Gravehaus/friendfinder.git
+```
+Install npm packages and listed dependencies.
+```bash
+npm install express
+npm install body-parser
+npm install module
+npm install parse
+npm install path
+npm installpost
+npm install require
+npm install stack-trace
+```
+
+
+
+## Images of finished product!
+
+
 <img width="918" alt="Screen Shot 2019-10-05 at 7 22 45 PM" src="https://user-images.githubusercontent.com/54043578/66263530-0b80f200-e7a9-11e9-965a-7015083cfc49.png">
 
 
