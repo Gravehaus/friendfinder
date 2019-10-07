@@ -60,14 +60,14 @@ const pokemon = [
 
   {
     name: "Sirfetch'd",
-    photo:"../public/img/Sirfetch'd.png", //insert image here
+    photo:"/app/public/img/Sirfetch'd.png", //insert image here
     scores: [3, 5, 2, 3, 5, 2, 4, 1, 3,5], //hp, attack, defense, spec def, spec attack, speed, agility, evolution, kindness, happiness
     info: "The Farfetch’d of the Galar region can evolve into Sirfetch'd after experiencing many battles. They are calm and collected, and they make a point of always battling fairly. They are so noble in battle that they are often chosen as a motif for paintings."
   },
 
   {
     name: "Sobble",
-    photo:"../public/img/816Sobble.png", //insert image here
+    photo:"/app/public/img/816Sobble.png", //insert image here
     scores: [2, 3, 5, 2, 5, 3, 1, 4, 3,2], //hp, attack, defense, spec def, spec attack, speed, agility, evolution, kindness, happiness
     info: "It is a somewhat timid Pokémon that shoots out attacks as it hides itself in the water. The Sword & Shield announcement trailer shows it camouflaging itself in a fountain, but runs off when Grookey approaches."
   },
