@@ -30,10 +30,8 @@ module.exports = function (app) {
       pokemonDifference: 1000
     };
 
-    // To take the result of the user's survey POST and parse it
     let userData = req.body;
     let userScores = userData.scores;
-    // To take the results of the user's name and photo, other than the survey questions, to post and parse it
     let userName = userData.name;
     let userPhoto = userData.photo;
 
@@ -63,7 +61,7 @@ module.exports = function (app) {
       }
     }
 
-    // The push method use to save user's data to the database
+    // Saving users input to our database
     pokemon.push(userData);
     console.log(pokemon)
 

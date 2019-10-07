@@ -20,23 +20,22 @@ console.log(express)
 // This sets up the basic properties for our express server
 // ==============================================================================
 
-// Tells node that we are creating an "express" server
+// EXPRESS SERVER
 let app = express();
 
-// Sets an initial port. We"ll use this later in our listener
+// PORT LISTENER
 let PORT = process.env.PORT || 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("app/public")); //added for style. if doesn't work, remove.
 
-//this tells the server that whenever you link to a static file (css/js/imgs) in your html to look for them inside of the public folder (which is inside the app folder...from where server is we need to tell is to go into app first)
 
-// ================================================================================
 // ROUTER
+// ================================================================================
+
 // The below points our server to a series of "route" files.
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
-// ================================================================================
 
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
