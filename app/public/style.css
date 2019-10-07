@@ -64,8 +64,8 @@ span, a{
 
 .active-result, 
 #match-info,
-#match-name,
-.modal-title {
+#match-name
+{
     color: black;
 }
 
